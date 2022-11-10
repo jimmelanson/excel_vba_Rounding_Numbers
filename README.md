@@ -28,7 +28,7 @@ Debug.Print RoundToNumber(curValue, 0.02)
 
 curValue = 5.926
 Debug.Print RoundToNumber(curValue, 0.02)
--> 5.92
+-> 5.92    'It rounds to 5.92 instead of 5.93 because it is rounding to the nearest EVEN value (0.02)
 ```
 
 You could round an integer to the nearest multiple of 25:
